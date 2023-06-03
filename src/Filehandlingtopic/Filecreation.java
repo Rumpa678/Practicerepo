@@ -1,9 +1,13 @@
 package Filehandlingtopic;
 import java.io.File;
 import java.io.IOException;
+
+import org.testng.annotations.Test;
 public class Filecreation {
 
-	public static void main(String[] args) throws IOException{
+	@Test
+	public void did() throws IOException
+	{
 		File f7=new File("C:/Filehandling1/Donkey.txt");
 		if(f7.createNewFile())
 		{
